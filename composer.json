@@ -1,0 +1,15 @@
+{
+  "name": "live-happy-code-hard/worker-processes-with-ipc",
+  "description": "Worker processes implementation with IPC",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "ext-pcntl": "*",
+    "ext-shmop": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "LiveHappyCodeHard\\WorkerProcesses\\": "src/WorkerProcesses"
+    }
+  }
+}
